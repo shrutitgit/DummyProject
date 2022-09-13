@@ -10,11 +10,11 @@ public class ListDemo {
 
 		List<String> list = Arrays.asList("Shruti","Neval","Roshni","Vivek");
 	
-	
-		Iterator<String> itr = list.iterator();
-		while(itr.hasNext()) {
-			System.out.println(itr.next());
-		}
+		for(String a:list)
+			System.out.println(a);
+		
+		
+		
 	}
 
 }
